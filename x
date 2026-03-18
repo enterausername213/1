@@ -1,4 +1,4 @@
-      do
+      do	
 		ply = game.Players
 		plr = ply.LocalPlayer
 		Root = plr.Character.HumanoidRootPart
@@ -7494,10 +7494,7 @@
 			end)
 		end
 	end)
-	else
-		Tabs.Mirage:AddSection("CHỈ CÓ TẠI SEA 3")
 	end
-	if World3 then
 	Tabs.Drago:AddSection("Dojo Quest & Drago Race")
 	local DojoQ = Tabs.Drago:AddToggle("DojoQ", {
 		Title = "Auto Dojo Trainer",
@@ -8043,10 +8040,7 @@
 			end
 		end
 	end)
-	else
-	Tabs.Drago:AddSection("CHỈ CÓ TẠI SEA 3")
 	end
-	if World3 then
 	Tabs.Prehistoric:AddSection("Volcanic Magnet")
 	Toggle = Tabs.Prehistoric:AddToggle("Toggle", {
 		Title = "Auto Craft Volcanic Magnet",
@@ -8317,10 +8311,6 @@
 			end)
 		end
 	end)
-	else
-		Tabs.Prehistoric:AddSection("CHỈ CÓ TẠI SEA 3")
-		end
-	if World3 then
 	Tabs.SeaEvent:AddSection("Sea Event / Setting Sail")
 	local ListSeaBoat = {
 		"Guardian",
@@ -9001,10 +8991,6 @@
 			replicated.Modules.Net:FindFirstChild("RE/TouchKitsuneStatue"):FireServer()
 		end
 	})
-	else
-		Tabs.SeaEvent:AddSection("CHỈ CÓ TẠI SEA 3")
-		end
-
 	Tabs.Raids:AddSection("Dungeon Event / Raiding")
 	local RaidS = Tabs.Raids:AddParagraph({
 		Title = " Raiding Status ",
