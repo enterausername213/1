@@ -2122,9 +2122,14 @@
 
 	Tabs.Discord:AddButton({
 		Title = "讓我們迎接雷聲 - Русская версия",
-		Description = "Это не оригинал скрипта а просто переделанная версия! Также все делалась под удобства создателя этой версии. Создатель версии @now_human также спасибо @greeq_. за то что помог расшифровать оригинальную версию скрипта",
+		Description = "Это не оригинал скрипта а просто переделанная версия! Также все делалась под удобства создателя этой версии. Создатель версии @now_human также спасибо @greeq_. за то что расшифровал оригинальную версию скрипта",
 		Callback = function()
-			setclipboard(tostring(""))
+				setclipboard(tostring("https://e-z.bio/redbull"))
+				Fluent:Notify({
+					Title = "Скопировано",
+					Content = "Ссылка на одного с разработчиков скопирована, пишите ему фидбэк.",
+					Duration = 3
+				})
 		end
 	})
 	local ReplicatedStorage = game:GetService("ReplicatedStorage")
