@@ -2096,7 +2096,7 @@
 			Title = "Дополнительно"
 		}),
 		NoneTabsX = Window:AddTab({
-			Title = " "
+			Title = "-------------"
 		}),
 		Raids = Window:AddTab({
 			Title = "Рейды"
